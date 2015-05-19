@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TwojNiezbednik</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_druga_aktywnosc">Aplikacje</string>
+    <string name="title_activity_gps">GPS</string>
+    <string name="title_activity_latarka">latarka</string>
+</resources>

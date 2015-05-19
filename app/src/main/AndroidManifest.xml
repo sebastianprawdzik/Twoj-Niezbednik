@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sebastian.pliki" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".PlikiGlowny"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DrugaAktywnosc"
+            android:label="@string/title_activity_druga_aktywnosc" >
+        </activity>
+        <activity
+            android:name=".GPS"
+            android:label="@string/title_activity_gps" >
+        </activity>
+        <activity
+            android:name=".latarka"
+            android:label="@string/title_activity_latarka" >
+        </activity>
+    </application>
+
+</manifest>
